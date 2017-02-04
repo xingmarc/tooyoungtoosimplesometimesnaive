@@ -1,0 +1,85 @@
+@font-face {
+    font-family: vt323;
+    src: url(../font/VT323-Regular.ttf);
+}
+
+* {
+    font-family: 'vt323'
+}
+
+.App-center-wrap {
+    text-align: center;
+    margin: 10% 1em;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+}
+
+.TYTS-headline {
+    font-size: 17vw;
+    font-weight: bold;
+    color: chartreuse;
+    text-shadow: 0.05em 0.05em blue, -0.05em -0.05em red, 0.1em 0.1em blue, -0.1em -0.1em red, 0.15em 0.15em blue, -0.15em -0.15em red, 0.2em 0.2em blue, -0.2em -0.2em red;
+}
+
+.TYTS-Plus-One-Second-btn {
+    margin-right: auto;
+    margin-left: auto;
+
+    border: none;
+    outline: none;
+    background: transparent;
+    color: chartreuse;
+    text-shadow: 1.05em -1.05em blue, -1.05em 1.05em red;
+    /*box-shadow:  0px 5px 0px #00823F;*/
+
+    transition: all linear 0.2s
+    /*animation-name: button-active;*/
+}
+
+.TYTS-Plus-One-Second-btn:active {
+    box-shadow: none;
+    transform: scale(1.5);
+    /*animation: button-active infinite 20s linear;*/
+}
+
+
+.TYTS-Plus-One-Second-btn:hover {
+    cursor: pointer;
+}
+
+.TYTS-Plus-One-Second-btn__text {
+    font-size: 17vw;
+    font-weight: bold;
+}
+
+
+@keyframes button-active {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.05);
+    }
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
