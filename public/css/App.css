@@ -29,7 +29,7 @@
 }
 
 .TYTS-headline {
-    font-size: 17vw;
+    font-size: 15vw;
     font-weight: bold;
     color: chartreuse;
     text-shadow: 0.05em 0.05em blue, -0.05em -0.05em red, 0.1em 0.1em blue, -0.1em -0.1em red, 0.15em 0.15em blue, -0.15em -0.15em red, 0.2em 0.2em blue, -0.2em -0.2em red;
@@ -44,18 +44,14 @@
     background: transparent;
     color: chartreuse;
     text-shadow: 1.05em -1.05em blue, -1.05em 1.05em red;
-    /*box-shadow:  0px 5px 0px #00823F;*/
 
     transition: all linear 0.2s
-    /*animation-name: button-active;*/
 }
 
 .TYTS-Plus-One-Second-btn:active {
     box-shadow: none;
     transform: scale(1.5);
-    /*animation: button-active infinite 20s linear;*/
 }
-
 
 .TYTS-Plus-One-Second-btn:hover {
     cursor: pointer;
@@ -64,22 +60,4 @@
 .TYTS-Plus-One-Second-btn__text {
     font-size: 17vw;
     font-weight: bold;
-}
-
-
-@keyframes button-active {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1.05);
-    }
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }
