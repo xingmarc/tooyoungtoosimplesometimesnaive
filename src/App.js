@@ -56,7 +56,7 @@ const TooYoungTooSimple404 = () => (
         <div className="TYTS-headline">
             404 Not Found
         </div>
-        <img src={Yawn} />
+        <img role="presentation" src={Yawn} />
     </div>
 )
 
@@ -65,7 +65,7 @@ const None = () => (
         <div className="TYTS-headline">
             No, nothing
         </div>
-        <img src={Teapot} />
+        <img role="presentation" src={Teapot} />
     </div>
 )
 
@@ -112,10 +112,10 @@ const me = {
                 'django'
             ]
         }, {
-            language: 'swift'
+            language: 'swift',
         }
     ],
-    interest: ['guitar', 'painting', 'lego']
+    interest: ['guitar', 'painting', 'lego'],
 }
 
 class IAmTooYoungTooSimpleAndSometimesNaive extends Component {
