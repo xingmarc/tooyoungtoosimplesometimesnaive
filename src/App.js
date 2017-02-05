@@ -74,7 +74,7 @@ const me = {
     tag: 'too young, too simple, sometimes naive',
     occupation: 'software engineer',
     location: 'san francisco bay area',
-    github: 'wwww.ssss.com',
+    github: 'https://github.com/xingmarc',
 
     experince: [
         {
@@ -84,7 +84,7 @@ const me = {
         }, {
             title: 'front end engineer',
             company: 'socialgear.us',
-            description: 'xgdadsgasdg\nsfsfssdgsd'
+            description: ''
         }
     ],
     education: [
