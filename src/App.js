@@ -75,7 +75,7 @@ const me = {
     occupation: 'software engineer',
     location: 'san francisco bay area',
     github: 'https://github.com/xingmarc',
-
+    contact: 'yichixingwork@gmail.com',
     experince: [
         {
             title: 'software engineer',
